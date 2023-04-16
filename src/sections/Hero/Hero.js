@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='hero-text'>
             <h6 className='hero-subtitle'>Welcome to Cybrog</h6>
             <h4 className='hero-title'><em>Browse</em> Our Popular Games Here</h4>
-            <PrimaryBtn href="https://ezzo8.github.io/Cyborg/#/browse">Browse Now</PrimaryBtn>
+            <PrimaryBtn to="/#">Browse Now</PrimaryBtn>
             
         </div>
 

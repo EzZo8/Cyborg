@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const PrimaryBtn = (props) => {
   return (
     <div className='button primary-btn'>
-      <Link to={props.href}>{props.children}</Link>
+      <Link to={props.to}>{props.children}</Link>
     </div>
   );
 };
