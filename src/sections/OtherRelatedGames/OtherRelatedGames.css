@@ -1,0 +1,12 @@
+.other-related-games-cards {
+    padding: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+@media screen and (max-width:991px) {
+    .other-related-games-cards { 
+        flex-direction: column;
+    }
+    
+}

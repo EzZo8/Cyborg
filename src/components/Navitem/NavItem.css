@@ -1,0 +1,33 @@
+.custom-link{
+   color: var(--color-lightgray);
+   font-size: 1rem;
+
+   
+   font-weight: var(--font-weight-normal);
+   letter-spacing: 0.5px;
+   
+}
+.custom-link:hover{
+    color: var(--color-primary);
+    transition: 0.3s;
+}
+
+@media screen and (max-width:767px) { 
+
+    .nav-item.ms-4 {
+        margin-bottom: 1rem;
+        background-color: var(--color-light);
+        border-bottom: 1px solid  rgba(80, 80, 80,0.2);
+        padding: 0.7rem;
+        margin-bottom: 0;
+        
+    }
+    .custom-link {
+        color: var(--color-darkest);
+        font-size: 0.8rem;
+        font-weight: normal;
+        letter-spacing: 2px;
+        
+    }
+
+}

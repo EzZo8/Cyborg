@@ -1,0 +1,114 @@
+
+.most-popular-live-cards {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin-top: calc(var(--margin-primary)/2);
+}
+@media screen and (max-width:991px) {
+    .most-popular-live-card {
+        flex: 1 1 50%;
+        
+    }
+    .most-popular-live-cards {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:767px) {
+    .most-popular-live-cards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 2.5rem;
+    }
+    .most-popular-live-card {
+        flex: 1 1 20%;
+    }
+    .most-popular-live-card-content{
+        margin-top: calc(var(--margin-primary)/5) !important;
+    }
+ }
+
+.most-popular-live-card {
+ flex: 1 1 25%;
+}
+.most-popular-live-card .stream-img-containing {
+    position: relative;
+}
+
+.most-popular-live-card .stream-img-containing img {
+    height: 100%;
+    width: 100%;
+    
+    border-radius: var(--border-radius-primary);
+}
+.most-popular-live-card-content {
+    margin-top: calc(var(--margin-primary)/3);
+}
+.most-popular-live-card-content img {
+    border-radius: var(--border-radius-primary);
+    display: block;
+}
+.most-popular-live-card-content .img-containing {
+    display: inline;
+    width: auto;
+}
+.most-popular-live-card-content .card-text  {
+    display: inline-block;
+    text-align: left;
+    padding: 0 var(--padding-secondary);
+    margin-left: 2.2rem;
+    margin-top: -2.5rem;
+}
+.card-text .check-icon {
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-primary);
+    font-size: 13px;
+    padding: 4px;
+}
+.most-popular-live-card-content .card-text  h4 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.most-popular-live-card-content .card-text span {
+    color: var(--color-primary);
+
+}
+.btn-overlay {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 12px;
+    color: var(--color-light);
+    border: none;
+    outline: none;
+    border-radius: var(--border-radius-primary);
+    padding: 0.4rem 0.8rem;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+    background-color: var(--color-primary);
+}
+.btn-overlay:hover {
+    color: var(--color-primary);
+    background-color: var(--color-light);
+}
+.btn-overlay.live-btn {
+    top: 10%;
+    left: 70%;
+    font-size: 14px;
+    padding: 0.3rem 0.8rem;
+    letter-spacing: 0.8px;
+}
+.btn-overlay.game-btn {
+    bottom: 10%;
+    left: 50%;
+}
+.btn-overlay.views-btn {
+    bottom: 10%;
+    left: 15%;
+ }
+
+ .most-popular-live-card .stream-img-containing:hover .btn-overlay {
+    visibility: visible;
+    opacity: 1;
+ }

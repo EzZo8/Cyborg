@@ -1,0 +1,35 @@
+.feat-games{
+    flex-basis: 66.6%;
+    max-width: 66.6%;
+    flex-grow: 1;
+    
+}
+.feat-games-cards{
+    display: flex;
+    gap: 1rem;
+}
+.wrapper {
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius-primary);
+    padding: calc(var(--padding-primary)/2);
+    overflow: hidden;
+    
+   
+    
+}
+@media (max-width: 1201px) {
+    .feat-games {
+        flex-basis: 100%;
+        max-width: 100%;
+        flex-grow: 1; 
+        
+    }
+  }
+@media screen and (max-width:767px) {
+    .carousel-featured-games {
+        z-index: 1
+    }
+    .feat-games {
+        margin-top: 4rem;
+    }
+}

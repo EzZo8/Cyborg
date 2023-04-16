@@ -1,0 +1,6 @@
+.gaming-library-cards {
+    padding-top: var(--padding-secondary);
+    display:flex;
+   flex-wrap:  wrap;
+
+}

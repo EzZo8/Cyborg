@@ -1,0 +1,70 @@
+.gaming-library-card{
+    flex: 1 1 100%;
+    
+   
+    border-bottom: 1px solid #27292a ;
+}
+.gaming-library-card ul{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px 10px;
+}
+@media screen and (max-width:992px) {
+    .gaming-library-card ul li  {
+        flex: 1  25% !important;
+        flex-wrap: wrap;
+
+        
+        font-size: 14px;
+    }
+    .gaming-library-card ul li.img-containing {
+        margin-bottom: 1rem;
+    }
+   
+    
+}
+.gaming-library-card ul li{
+    flex: 1   ;
+    
+}
+
+.gaming-library-card ul li img{
+  /* position: absolute;*/
+  border-radius: var(--border-radius-primary);
+  
+  /*left: 0;
+  top: 0;
+  transform: translate(-135%,-25%);*/
+}
+.gaming-library-card h4{
+    font-size: 1rem;
+    
+    font-weight: var(--font-weight-bold);
+}
+.gaming-library-card span {
+    color: var(--color-lightgray);
+    font-size: 14px;
+}
+.gaming-library-card li a.downloadbtn {
+    
+    padding: calc(var(--padding-secondary)/2) 2rem; 
+    font-size: 14px;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+.gaming-library-card li a.downloadbtn:hover{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    transition: 0.5s;
+    border: 1px solid rgba(1, 1, 1, 0);
+}
+.gaming-library-card li a.downloadedbtn {
+    cursor: default;
+    color: var(--color-lightgray);
+    padding: calc(var(--padding-secondary)/2) var(--padding-secondary); 
+    font-size: 14px;
+    border: 1px solid var(--color-lightgray);
+}

@@ -1,0 +1,95 @@
+.top-downloaded-card-wrapper {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    padding: calc(var(--padding-secondary)/2) 0;
+    border-bottom: 1px solid rgba(109, 107, 108, 0.2);
+}
+
+.top-downloaded-card-img-containing img {
+    margin-top: 15%;
+    object-fit: cover;
+    border-radius: var(--border-radius-primary);
+    margin-right: 1rem;
+}
+.top-downloaded-card-content{
+    margin-top: 1rem;
+    margin-left: -4%;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+@media screen and (min-width:1201px), (max-width:1399px) {
+    .top-downloaded-card-wrapper {
+        
+        padding:  0;
+    }
+}
+@media screen and (min-width:1400px) {
+
+ .top-downloaded-card-wrapper {
+        
+    padding: calc(var(--padding-secondary)/2) 0;
+    }
+}
+@media screen and (max-width:1201px) {
+    .top-downloaded-card-wrapper {
+        gap: 5rem;
+        justify-content: space-between;
+        padding: calc(var(--padding-secondary)/2) 0;
+    }
+    .top-downloaded-card-content ul { 
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+    .top-downloaded-card-content {
+        margin-top: 2rem;
+        flex-direction: row;
+        gap: 20%;
+    }
+
+
+}
+@media screen and (max-width:767px) { 
+    .top-downloaded-card-wrapper {
+        gap: 1rem;
+        justify-content: space-around;
+    }
+    
+    .top-downloaded-card-content {
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+    .top-downloaded-card-img-containing {
+        margin-left: 1rem;
+    }
+    .download-icon {
+        text-align: left !important; 
+    
+    }
+}
+.top-downloaded-card-content span {
+    font-size: 14px;
+    color: var(--color-lightgray);
+    font-weight: var(--font-weight-normal);
+}
+.top-downloaded-card-content .top-downloaded-card-title {
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: var(--font-weight-bold);
+}
+.top-downloaded-card-content ul {
+    display: flex;
+    gap: 1rem;
+    flex-wrap:nowrap;
+    margin-left: -20%;
+ }
+ .top-downloaded-card-content ul span {
+    color: var(--color-light);
+    font-weight: var(--font-weight-normal);
+    font-size: 14px;
+ }
+ .fa-icon:hover {
+    cursor: pointer;
+ }
+

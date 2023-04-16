@@ -1,0 +1,42 @@
+.top-downloaded{
+    flex-basis: 100%;
+    
+}
+@media (min-width: 768px) {
+    .top-downloaded {
+      flex-basis: calc(33.333% - 2rem); 
+    }
+  }
+@media screen and (min-width:1201px) {
+    .wrapper { height: 100%;}
+    
+    
+  }
+@media (max-width: 1201px) {
+    .top-downloaded {
+        flex-basis: 100%;
+        max-width: 100%;
+        flex-grow: 1; 
+        
+    }
+  }
+
+.wrapper {
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius-primary);
+    padding: calc(var(--padding-primary)/2);
+}
+
+.top-downloaded h5 {
+  color: var(--color-primary);
+  font-size: 15px;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+  margin-top: 7%;
+  transition: all 0.5s;
+}
+.top-downloaded h5:hover {
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  
+}

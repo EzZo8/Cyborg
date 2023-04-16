@@ -1,0 +1,11 @@
+export {default as Header } from '../sections/Header/Header' ;
+export {default as Hero } from '../sections/Hero/Hero';
+export {default as Footer } from '../sections/Footer/Footer' ;
+export {default as MostPopular } from '../sections/MostPopular/MostPopular' ;
+export {default as GamingLibrary } from '../sections/GamingLibrary/GamingLibrary' ;
+export {default as FeaturedGames } from '../sections/FeaturedGames/FeaturedGames' ;
+export {default as TopDownloaded } from '../sections/TopDownloaded/TopDownloaded' ;
+export {default as HowToStart } from '../sections/HowToStart/HowToStart' ;
+export {default as MostPopularLive } from '../sections/MostPopularLive/MostPopularLive' ;
+export {default as GameDetails} from '../sections/GameDetails/GameDetails';
+export {default as OtherRelatedGames} from '../sections/OtherRelatedGames/OtherRelatedGames';

@@ -1,0 +1,71 @@
+.other-related-games-card {
+    display: flex;
+    flex: 1 1 48%;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid rgba(92, 92, 92, 0.1) ;
+    padding: 2rem 0;
+    margin-top: 1rem;
+}
+.other-related-games-card .img-containing {
+    flex: 1 1 25%;
+}
+.other-related-games-card .img-containing img {
+    margin-top: -15%;
+    margin-left: 1rem;
+    border-radius: var(--border-radius-primary);
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+
+}
+@media screen and (max-width:991px) {
+
+    
+}
+
+@media screen and (max-width:767px) {
+    .other-related-games-card .img-containing img {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:479px) { 
+    .other-related-games-content p {
+        font-size: 13px;
+    }
+    .other-related-games-card .img-containing img { 
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+
+
+.other-related-games-content {
+    flex-basis: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.other-related-games-content h4,
+.other-related-games-content p,
+.other-related-games-content div {
+    flex: 1 1 50%;
+}
+.other-related-games-content div {
+    margin-right: -47%;
+    text-align: left;
+}
+
+.other-related-games-content h4 {
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-light);
+}
+.other-related-games-content p {
+    color: var(--color-lightgray);
+}
+.other-related-games-content div span {
+    font-size: 14px;
+    
+}

@@ -1,0 +1,37 @@
+:root{
+    --color-dark: #27292a;
+    --color-lightgray: #666;
+    
+    --color-darkest:#1f2122;
+    --color-light: #fff;
+    --color-primary:#ec6090;
+    --color-icons: yellow;
+    --color-bg-body: var(--color-darkest);
+
+    --distance-primary: 50px;
+    --padding-primary: var(--distance-primary);
+    --padding-secondary: calc(var(--distance-primary)/2);
+    --padding-tertiary : calc(var(--distance-secondary)/2);
+    --margin-primary: var(--distance-primary) ;
+
+    --border-radius-primary: calc(var(--distance-primary)/2);
+    --border-radius-secondary: calc(var(--border-radius-primary)/2);
+    --border-radius-tertiary :calc(var(--border-radius-secondary)/2);
+
+    --font-weight-bold:700;
+    --font-weight-normal:300;
+    --font-fam-primary:'Poppins', sans-serif;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+    background-color: var(--color-bg-body);
+    font-family: var(--font-fam-primary);
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}

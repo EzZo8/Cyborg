@@ -1,0 +1,79 @@
+
+.cyborg-navbar{
+    min-height: 100px;
+}
+
+.navbar-brand-img {
+ border-right:1px solid rgba(208, 204, 204, 0.1); ;
+ padding-right: 6rem;
+}
+.navbar-nav {
+    padding-right: 2rem;
+}
+
+@media screen and (max-width:767px) {
+    form {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    #mainmenu{
+    
+        padding-top: 0.5rem;
+        
+        
+    }
+    .cyborg-navbar {
+        max-height: 85px;
+        min-height: auto;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        background-color: rgb(239, 239, 239);
+    }
+    .navbar-toggler {
+    
+        background-color: var(--color-primary);
+    }
+   
+    .navbar-nav.ms-auto {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width:992px) {
+    form {
+        display: none;
+    }
+}
+form input[type="search"]{
+   background-color: #27292a;
+   border: none;
+   padding: var(--padding-secondary);
+   padding-left: 3rem;
+
+   font-size: 15px;
+   height: 1rem;
+   
+}
+form input[type="search"]::placeholder {
+    text-indent: -1.2rem; 
+  }
+form {
+
+    position: relative;
+   /* border-left: 1px solid rgba(208, 204, 204, 0.1);*/
+    
+
+}
+form .search-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(100%,100%);
+    color: rgba(208, 204, 204, 0.5);
+     /* add some padding to the icon */
+    pointer-events: none; /* ignore pointer events on the icon */
+}

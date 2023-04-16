@@ -1,0 +1,37 @@
+.feat-games-card-wrapper{
+    margin-top: calc(var(--margin-primary)/2);
+    margin-right: calc(var(--margin-primary)/4);
+    margin-left: calc(var(--margin-primary)/4);
+    
+}
+.img-cotaining-div{
+    height: 24rem;
+    padding-bottom: var(--padding-secondary);
+    overflow: hidden;
+}
+
+.feat-games-card-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.img-cotaining-div img{
+ width: 100%;
+ height: 100%;
+ border-radius: var(--border-radius-primary);
+ margin-bottom: calc(var(--margin-primary)/3);
+ object-fit: cover;
+}
+
+.feat-games-card-title{
+    font-size: 15px;
+    font-weight: var(--font-weight-bold);
+    line-height: 1.5rem;
+}
+.feat-games-card-title span {
+color: var(--color-lightgray); 
+font-weight: var(--font-weight-normal);
+font-size: 15px
+}
