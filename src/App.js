@@ -8,7 +8,7 @@ import {Home , Browse, Details} from './Pages/index'
 const App = () => {
     
     return( 
-        <>
+    <>
         <Router>
             <Header/>
             <Container> 
