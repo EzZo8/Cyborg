@@ -1,9 +1,9 @@
 import './Buttons.css'
-
+import { Link } from 'react-router-dom';
 const PrimaryBtn = (props) => {
   return (
     <div className='button primary-btn'>
-      <a href={props.href ? props.href : "/#"}>{props.children}</a>
+      <Link to={props.href ? props.href : "/#"}>{props.children}</Link>
     </div>
   );
 };
