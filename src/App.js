@@ -12,11 +12,13 @@ const App = () => {
         <Router>
             <Header/>
             <Container> 
+                asdasd
                 <Routes>
                     <Route path='/' element={<Home/>} />
                     <Route path='/browse' element={<Browse/>} />
                     <Route path='/details' element={<Details/>} />
                 </Routes>
+                dsadsa
             
 
 
