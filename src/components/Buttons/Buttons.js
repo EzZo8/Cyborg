@@ -3,10 +3,10 @@ import './Buttons.css'
 const PrimaryBtn = (props) => {
   return (
     <div className='button primary-btn'>
-      <a href='/#'>{props.children}</a>
+      <a href={props.href ? props.href : "/#"}>{props.children}</a>
     </div>
-  )
-}
+  );
+};
 
 const SecondaryBtn = (props) => {
   return (
