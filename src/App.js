@@ -9,7 +9,7 @@ const App = () => {
     
     return( 
     <>
-        <Router basename="/Cyborg">
+        <Router >
             <Header/>
             <Container> 
                 <Routes>
